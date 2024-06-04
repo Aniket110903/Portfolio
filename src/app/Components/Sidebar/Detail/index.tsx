@@ -12,9 +12,9 @@ const Detail: React.FC<DetailProps> = ({ type }) => {
                 {type === "EMAIL" ? <IoMailOutline size={20} /> : <IoLocationOutline size={20} />}
             </div>
             <div>
-                <p className="text-[#8B8B8B] text-[0.8rem] font-[600]">{type}</p>
+                <p className="text-[#8B8B8B] text-[0.8rem] font-[600] text-center">{type}</p>
                 {type === "EMAIL" ?
-                    <a className="text-[#FAFAFA] text-[0.7rem]" href="mailto:utkarsh@msit.in">aniketgoyal110903@gmail.com</a>
+                    <a className="text-[#FAFAFA] text-[0.7rem]" href="mailto:aniket11092003@gmail.com">aniket11092003@gmail.com</a>
                     :
                     <p className="text-[#FAFAFA] text-[0.9rem]">New Delhi, India</p>}
             </div>

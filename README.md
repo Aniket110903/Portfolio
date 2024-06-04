@@ -1,5 +1,5 @@
 # Portfolio Website
-![image](https://ibb.co/1bxRbQ5)
+![portss](https://github.com/Aniket110903/Portfolio/assets/129101494/89e5241d-fbfe-43df-9eb7-8bbcbf30f2e3)
 
 ## Tech Stack
 

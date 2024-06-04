@@ -24,7 +24,7 @@ const Sidebar = () => {
       </div>
       <div className="md:block flex w-[80%] justify-between md:w-full mx-auto">
         <div className="bg-[#383839] w-[30%] md:w-[65%] rounded-[10px] md:rounded-[35px] mx-auto md:mt-[7vh]">
-          <Image src="/aniketgoyal.jpeg" alt="Utkarsh Ahuja" width={200} height={200} />
+          <Image src="/aniket.png" className="" alt="Aniket Goyal" width={250} height={250} />
         </div>
         <div className="w-[80%] md:w-full ">
           <div className="mx-auto w-[90%] rounded-lg tracking-wide py-[0.15rem] md:mt-[3vh]">
@@ -40,7 +40,7 @@ const Sidebar = () => {
         <a href="https://www.linkedin.com/in/aniket-goyal-21b007306" target="_blank" rel="noopener noreferrer"><IoLogoLinkedin size={20} /></a>
         <a href="https://github.com/Aniket110903" target="_blank" rel="noopener noreferrer"><FaGithub size={20} /></a>
         <a href="https://leetcode.com/u/aniketgoyal110903" target="_blank" rel="noopener noreferrer"><TbBrandLeetcode size={20} /></a>
-        <a href="https://twitter.com/UtkarshAhuja03" target="_blank" rel="noopener noreferrer"><FaSquareXTwitter size={20} /></a>
+        <a href="https://x.com/Aniket110903" target="_blank" rel="noopener noreferrer"><FaSquareXTwitter size={20} /></a>
       </div>
       {
         showContact && <div>
