@@ -25,7 +25,7 @@ export default function RootLayout({
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="Aniket Goyal | Full Stack Developer in New Delhi, India | React, Node.js, TypeScript" />
       <meta name="twitter:description" content="Hire experienced Full Stack Developer (React, Node.js, TypeScript, MongoDB, Docker, AWS). Open for freelance projects & jobs. Expert in MERN Stack, UI/UX, cloud computing, & more. Explore my portfolio!" />
-      <meta name="twitter:image" content="https://postimg.cc/rRKVBtSD" />
+      <meta name="twitter:image" content="https://i.ibb.co/M5WM3Lw/aniketme.png" />
       <body className={poppins.className}>{children}</body>
     </html>
   );
