@@ -50,9 +50,9 @@ const Experience = () => {
         <div>
           <p className="text-[#FAFAFA] font-[600] tracking-wide text-[1.5rem]">Achievements</p>
           <div className="w-[90%] text-[#FAFAFA] bg-[#232325] mx-auto my-[1vh] md:my-[2vh] rounded-md py-4 px-4 md:px-10 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] border-[#303030] border-[1px]">
-            <p className="mb-1">Higgest Rating 1508 in leetcode solved 275+ DSA problems on leetcode</p>
+            <p className="mb-1">Highest Rating 1508 in leetcode solved 275+ DSA problems on leetcode</p>
             <p className="mb-1">Participated in hackathon</p>
-            <p className="mb-1">under 17 State level Basketball player.</p>
+            <p className="mb-1">Under 17 State level Basketball player.</p>
           </div>
         </div>
         <section className="timeline">
