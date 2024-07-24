@@ -26,6 +26,21 @@ const Experience = () => {
           </div>
 
           <ol className="timeline-list">
+            <li className="timeline-item">
+                <h4 className="h4 timeline-item-title">Software Development Intern</h4>
+                <span>Fincart Financial Planner</span>
+                <div className="timeline-text">
+                  jun&apos;24 - Present
+                </div>
+                <br />
+              <div className="timeline-text">
+                <ul>
+                  <li>•Implemented a feature in Angular for users to port their existing insurance to another provider by interacting with a Port API to save the details.</li>
+                  <li>•Developed a quota upgrade feature in Next.js, enabling managers to set and update individual quotas for wealth managers and save the changes via API.</li>
+                  <li>•Built an API in Spring Boot to fetch and return a list of departments linked to the ticket support email, including department codes and names.</li>
+                </ul>
+              </div>
+            </li>
 
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title">Frontend Intern</h4>
@@ -36,10 +51,10 @@ const Experience = () => {
               <br />
               <div className="timeline-text">
                 <ul>
-                  <li>Integrated Google Solar API to calculate user-specific solar panel savings estimates, significantly boosting user engagement by providing personalized and actionable information.</li>
-                  <li>Utilized Maps API for location data.</li>
-                  <li>Effectively conveyed information using graphs for improved understanding.</li>
-                  <li>Build all website Responsively with Tailwind CSS in Reactjs. </li>
+                  <li>•Integrated Google Solar API to calculate user-specific solar panel savings estimates, significantly boosting user engagement by providing personalized and actionable information.</li>
+                  <li>•Utilized Maps API for location data.</li>
+                  <li>•Effectively conveyed information using graphs for improved understanding.</li>
+                  <li>•Build all website Responsively with Tailwind CSS in Reactjs. </li>
                 </ul>
               </div>
             </li>
@@ -69,7 +84,7 @@ const Experience = () => {
 
             <li className="timeline-item">
 
-              <h4 className="h4 timeline-item-title">Guru Gobind Singh Indrapastha University</h4>
+              <h4 className="h4 timeline-item-title">Maharaja Surajmal Institute of Technology(GGSIPU)</h4>
 
               <span>2021 — 2025</span>
 
@@ -77,7 +92,7 @@ const Experience = () => {
                 B.Tech-InformationTechnology
               </p>
               <p className="timeline-text">
-                CGPA:9.156
+                CGPA: 9.1
               </p>
 
             </li>
@@ -88,10 +103,10 @@ const Experience = () => {
               <span>2021</span>
 
               <p className="timeline-text">
-                Class 12th
+                Class 12th-CBSE
               </p>
               <p className="timeline-text">
-                Percentage:92.2 
+                Percentage: 92.2 
               </p>
 
             </li>
@@ -102,10 +117,10 @@ const Experience = () => {
               <span>2019</span>
 
               <p className="timeline-text">
-                Class 10th
+                Class 10th-CBSE
               </p>
               <p className="timeline-text">
-                Percentage:86.6 
+                Percentage: 86.6 
               </p>
 
             </li>

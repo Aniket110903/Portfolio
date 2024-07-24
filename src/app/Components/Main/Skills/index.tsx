@@ -10,10 +10,10 @@ import { IoLogoReact } from "react-icons/io5";
 import { DiMongodb } from "react-icons/di";
 import { FaJava } from "react-icons/fa6";
 import { SiTailwindcss } from "react-icons/si";
-// import { IoLogoDocker } from "react-icons/io5";
-// import { FaAws } from "react-icons/fa";
-// import { SiGitpod } from "react-icons/si";
 import { PiGitMergeFill } from "react-icons/pi";
+import { BiLogoSpringBoot } from "react-icons/bi";
+import { FaAngular } from "react-icons/fa6";
+import { SiAzuredevops } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -62,10 +62,6 @@ const Skills = () => {
             <IoLogoReact size={40}/>
             <span className="ml-2 text-[1rem] md:text-[1.3rem]">React</span>
           </div>
-          <div className="flex">
-            <DiMongodb size={40}/>
-            <span className="ml-2 text-[1rem] md:text-[1.3rem]">MongoDB</span>
-          </div>
           <div className="flex mt-2">
             <SiExpress size={40}/>
             <span className="ml-2 text-[1rem] md:text-[1.3rem]">Express</span>
@@ -73,6 +69,18 @@ const Skills = () => {
           <div className="flex mt-2">
             <SiTailwindcss size={40}/>
             <span className="ml-2 text-[1rem] md:text-[1.3rem]">TailwindCSS</span>
+          </div>
+          <div className="flex">
+            <BiLogoSpringBoot size={40}/>
+            <span className="ml-2 text-[1rem] md:text-[1.3rem]">Spring Boot</span>
+          </div>
+          <div className="flex">
+            <FaAngular size={40}/>
+            <span className="ml-2 text-[1rem] md:text-[1.3rem]">Angular</span>
+          </div>
+          <div className="flex">
+            <DiMongodb size={40}/>
+            <span className="ml-2 text-[1rem] md:text-[1.3rem]">MongoDB</span>
           </div>
         </div>
         </div>
@@ -92,10 +100,11 @@ const Skills = () => {
             <PiGitMergeFill size={40}/>
             <span className="ml-2 text-[1rem] md:text-[1.3rem]">Git</span>
           </div>
-          {/* <div className="flex">
-            <SiGitpod size={30}/>
-            <span className="ml-2 text-[1rem] md:text-[1.3rem]">Gitpod</span>
-          </div> */}
+
+          <div className="flex">
+            <SiAzuredevops size={30}/>
+            <span className="ml-2 text-[1rem] md:text-[1.3rem]">Azure Devops</span>
+          </div>
         </div>
         </div>
       </div>
